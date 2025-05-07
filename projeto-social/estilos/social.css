@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body {
+    background-color: rgb(124, 123, 123);
+}
+
+img {
+    width: 100vw;
+}
+
+p {
+    background-color: rgba(0, 0, 255, 0.733);
+    color: rgba(255, 255, 255, 0.527);
+    text-align: center;
+    line-height: 1.5em;
+    padding: 20px;
+    margin-top:-2px;
+}
+
+a {
+    background-color: rgba(0, 0, 255, 0.829);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: darkblue;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+small:hover {
+    color: white;
+    font-size: 14px;
+}
