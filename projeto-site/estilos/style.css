@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(6, 79, 143);
+}
+
+main {
+    width: 560px;
+    background-color: white;
+    padding: 12px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 2.7em;
+    color: rgb(68, 4, 68);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: rgb(91, 19, 158);
+}
+
+p {
+    text-indent: 28px;
+    text-align: justify;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+img.lado {
+    float: right;
+    padding: 8px;
+}
+
+a {
+    color: rgba(147, 66, 223, 0.726);
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.efeito:hover {
+    color: rgba(7, 7, 209, 0.87);
+    text-decoration: underline;
+    background-color: rgba(147, 66, 223, 0.151);
+    transition-duration: 1s;
+    padding: 5px;
+    border-radius: 3px;
+}
